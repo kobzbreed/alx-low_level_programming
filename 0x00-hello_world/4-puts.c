@@ -1,10 +1,11 @@
 #include <stdio.h>
-/**main program execution starts here
- * description: this is the main function
- * an integer is returned to signify succes or failure
+/**
+ * main - prints "programming is like building a multilingual puzzle.
+ * 
+ * Return: Always 0.
  */
 int main(void)
 {
-	puts("\"programming language is like building a multilingual puzzle");
+	printf("\"programming language is like building a multilingual puzzle");
 	return (0);
 }
