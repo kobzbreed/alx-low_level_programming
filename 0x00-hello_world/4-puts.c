@@ -1,14 +1,10 @@
-#!/bin/bash
-/*
- * file: 4-puts.c
- */
 #include <stdio.h>
-/**
- * main - prints "programming is like a multilingual puzzle.
- * return: Always 0.
+/**main program execution starts here
+ * description: this is the main function
+ * an integer is returned to signify succes or failure
  */
 int main(void)
 {
-puts("\"programming is like a multilingual puzzle");
-return (0);
+	puts("\"programming language is like building a multilingual puzzle");
+	return (0);
 }
