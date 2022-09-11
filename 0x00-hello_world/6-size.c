@@ -1,24 +1,24 @@
 #include <stdio.h>
 
 /**
- * main - "Prints the size of various types.
- * Description: this is the main function
- * Return; Always 0.
+ * main -Entry point
+ *
+ * Return: Always 0 (Success)
  */
 
 int main(void)
+
 {
-	int int_type;
-	float float_type;
-	char char_type;
-	long int long_int_type;
-	long long int long_long_int_type;
 
-	printf("size of char: %d byte(s)\n", sizeof(char_type));
-	printf("the size of int: %d byte(s)\n", sizeof(int_type));
-	printf("the size of long int: %d byte(s)\n", sizeof(long_int_type));
-	printf("the size of long long int: %d byte(s)\n", sizeof(long_long_int_type));
-	printf("the size of float: %d byte(s)\n", sizeof(float_type));
+		printf("Size of a char: %d byte(s)\n", sizeof(char));
 
-	return (0);
+		printf("Size of an int: %d byte(s)\n", sizeof(int));
+
+		printf("Size of a long int: %d byte(s)\n", sizeof(long int));
+
+		printf("Size of a long long int: %d byte(s)\n", sizeof(long long int));
+		printf("Size of a float: %d byte(s)\n", sizeof(float));
+
+		return (0);
+
 }
