@@ -1,1 +1,1 @@
-functions, nested loops task
+functions, nested loops
