@@ -1,23 +1,16 @@
-
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
 /**
- *main - program execution starts here
- *Description: this is the main function
- *Return: an integer to signify success or failure
+ * main - Entry point
+ *
+ * Return: Always success
  */
 int main(void)
 {
 
-	int _putchar(char c);
+	printf(_putchar\n");
 
-	_putchar('_');
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
-	_putchar('\n');
 	return (0);
 }
